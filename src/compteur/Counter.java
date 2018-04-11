@@ -7,8 +7,7 @@ public class Counter
 	
 	public Counter() 
 	{
-		this.position = 0;
-		this.step = 1;
+		this(0,1);
 	}
 	
 	public Counter(int position, int step) 
@@ -29,13 +28,15 @@ public class Counter
 	
 	public boolean equals(Counter c)
 	{
-		boolean result = false;
+		/*boolean result = false;
 		if (this.position == c.getValue())
 		{
 			result = true;
 		}
 
-		return result;
+		return result;*/
+		
+		return this.getValue() == c.getValue();
 		
 	}
 

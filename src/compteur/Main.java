@@ -22,6 +22,10 @@ public class Main {
 		counter2.inc();
 		System.out.println(counter2.getValue());
 		
+		CounterPair counterPair = new CounterPair();
+		
+		counterPair.inc();
+		System.out.println(counterPair);
 
 
 	}
