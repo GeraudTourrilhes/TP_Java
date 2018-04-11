@@ -1,24 +1,38 @@
 package vehicule;
 
 public abstract class AbstractVehicule implements Vehicule{
-	protected Position p;
-	protected float nord;
-	protected float sud;
-	protected float ouest;
-	protected float est;
-	protected float speed;
-
+	private Position position;
+	private Direction direction;
+	private float speed;
+	
+	public AbstractVehicule(Position p, Direction d)
+	{
+		this.position = p;
+		this.direction = d;
+		this.speed = 0;
+	}
+	
+	public void setPosition(Position p)
+	{
+		this.position = p;
+	}
+	
 	public Position getPosition() 
 	{
-		return this.p;
+		return this.position;
+	}
+	
+	public Direction getDirection()
+	{
+		return this.direction;
 	}
 
-	public void setDirection(float nord, float sud, float ouest, float est) 
+	public void setDirection(float nord, float sud, float est, float ouest) 
 	{
-		this.nord = nord;
-		this.sud = sud;
-		this.ouest = ouest;
-		this.est = est;
+		direction.setNord(nord);
+		direction.setSud(sud);
+		direction.setEst(est);
+		direction.setOuest(ouest);
 		
 	}
 
@@ -26,5 +40,9 @@ public abstract class AbstractVehicule implements Vehicule{
 	{
 		this.speed = speed;
 	}
-
+	
+	public float getSpeed()
+	{
+		return this.speed;
+	}
 }

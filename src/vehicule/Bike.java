@@ -3,15 +3,9 @@ package vehicule;
 public class Bike extends AbstractVehicule
 {
 	
-	public Bike(Position p) 
+	public Bike(Position p, Direction d) 
 	{
-		super.p = p;
-
-	}
-	
-	public float getSpeed()
-	{
-		return super.speed;
+		super(p, d);
 	}
 	
 }
