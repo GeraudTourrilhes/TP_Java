@@ -19,7 +19,7 @@ public class Car extends AbstractVehicule
 	public int getVolumeEssence() {
 		return volumeEssence;
 	}
-
+	
 
 	public void setVolumeEssence(int volumeEssence) {
 		this.volumeEssence = volumeEssence;
@@ -40,11 +40,15 @@ public class Car extends AbstractVehicule
 		return CO2;
 	}
 
-
 	public void setCO2(int cO2) {
 		CO2 = cO2;
 	}
-	
-	
 
+
+	public String toString() {
+		return "Voiture: le volume d'essence est de " + volumeEssence + "l, la puissance est de " + puissance + "ch, la consommation de CO2 est de " + CO2 + "g/km";
+	}
+	
+	
+	
 }
