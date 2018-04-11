@@ -35,7 +35,7 @@ public class Counter
 
 	public String toString() 
 	{
-		return "valeur : " + position + " (incrémente" + step + ")";
+		return "valeur : " + position + " (incrémente " + step + ")";
 	}
 	
 	
