@@ -23,9 +23,13 @@ public class Main {
 		System.out.println(counter2.getValue());
 		
 		CounterPair counterPair = new CounterPair();
+		CounterImpair counterImpair = new CounterImpair();
 		
 		counterPair.inc();
 		System.out.println(counterPair);
+		
+		counterImpair.inc();
+		System.out.println(counterImpair);
 
 
 	}
