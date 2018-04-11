@@ -6,6 +6,7 @@ public class Main {
 	{
 		Counter counter = new Counter();
 		Counter counter1 = new Counter();
+		Counter counter2 = new Counter(0,2);
 		
 		System.out.println(counter.getValue());
 		counter.inc();
@@ -15,6 +16,9 @@ public class Main {
 		System.out.println(counter.equals(counter1));
 		counter.inc();
 		System.out.println(counter);
+		counter2.inc();
+		System.out.println(counter.equals(counter2));
+		System.out.println(counter2);
 		
 
 

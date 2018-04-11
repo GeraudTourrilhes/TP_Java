@@ -17,8 +17,6 @@ public class Counter
 		this.step = step;
 	}
 
-
-
 	public int getValue() 
 	{
 		return position;
