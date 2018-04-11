@@ -19,7 +19,7 @@ public class Counter
 
 	public int getValue() 
 	{
-		return position;
+		return this.position;
 	}
 	
 	public void inc()
@@ -41,12 +41,7 @@ public class Counter
 
 	public String toString() 
 	{
-		return "valeur : " + position + " (incrémente " + step + ")";
+		return "valeur : " + this.position + " (incrémente " + this.step + ")";
 	}
-	
-	
-	
-	
-	
 
 }

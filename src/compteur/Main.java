@@ -19,6 +19,8 @@ public class Main {
 		counter2.inc();
 		System.out.println(counter.equals(counter2));
 		System.out.println(counter2);
+		counter2.inc();
+		System.out.println(counter2.getValue());
 		
 
 
