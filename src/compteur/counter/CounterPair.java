@@ -1,6 +1,4 @@
-package compteur;
-
-import compteur.counter.Counter;
+package compteur.counter;
 
 public class CounterPair extends Counter
 {

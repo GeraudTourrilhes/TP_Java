@@ -1,6 +1,8 @@
 package compteur;
 
 import compteur.counter.Counter;
+import compteur.counter.CounterImpair;
+import compteur.counter.CounterPair;
 
 public class Main {
 
