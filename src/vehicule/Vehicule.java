@@ -2,7 +2,7 @@ package vehicule;
 
 public interface Vehicule 
 {
-	public Postion getPosition();
+	public Position getPosition();
 	
 	public void setDirection(float nord, float sud, float ouest, float est);
 	
