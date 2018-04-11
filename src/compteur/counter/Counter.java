@@ -26,6 +26,13 @@ public class Counter
 		return this.position;
 	}
 	
+
+	
+	public static int getGlobalCounter() 
+	{
+		return globalCounter;
+	}
+
 	public void inc()
 	{
 		this.position += this.step; 
