@@ -1,4 +1,4 @@
-package compteur;
+package compteur.counter;
 
 public class Counter 
 {

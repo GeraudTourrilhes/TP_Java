@@ -1,5 +1,7 @@
 package compteur;
 
+import compteur.counter.Counter;
+
 public class CounterPair extends Counter
 {
 
