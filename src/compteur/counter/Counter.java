@@ -2,6 +2,7 @@ package compteur.counter;
 
 public class Counter 
 {
+	private static int globalCounter = -1;
 	private int position;
 	private int step;
 	
@@ -12,6 +13,10 @@ public class Counter
 	
 	public Counter(int position, int step) 
 	{
+		if(globalCounter == -1)
+		{
+			globalCounter = 0;
+		}
 		this.position = position;
 		this.step = step;
 	}
@@ -24,6 +29,7 @@ public class Counter
 	public void inc()
 	{
 		this.position += this.step; 
+		globalCounter += this.step;
 	}
 	
 	public boolean equals(Counter c)
