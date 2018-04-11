@@ -1,12 +1,12 @@
 package vehicule;
 
 public abstract class AbstractVehicule implements Vehicule{
-	private Position p;
-	private float nord;
-	private float sud;
-	private float ouest;
-	private float est;
-	private float speed;
+	protected Position p;
+	protected float nord;
+	protected float sud;
+	protected float ouest;
+	protected float est;
+	protected float speed;
 
 	public Position getPosition() 
 	{
