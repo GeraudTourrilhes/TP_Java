@@ -49,4 +49,38 @@ public abstract class AbstractVehicule implements Vehicule{
 	{
 		return this.speed;
 	}
+
+	public int getPoids() {
+		return poids;
+	}
+
+	public void setPoids(int poids) {
+		this.poids = poids;
+	}
+
+	public String getMarque() {
+		return marque;
+	}
+
+	public void setMarque(String marque) {
+		this.marque = marque;
+	}
+
+	public String getModele() {
+		return modele;
+	}
+
+	public void setModele(String modele) {
+		this.modele = modele;
+	}
+
+	public String getCouleur() {
+		return couleur;
+	}
+
+	public void setCouleur(String couleur) {
+		this.couleur = couleur;
+	}
+	
+	
 }

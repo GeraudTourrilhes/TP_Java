@@ -1,13 +1,13 @@
 package vehicule;
 
-public class Cars extends AbstractVehicule 
+public class Car extends AbstractVehicule 
 {
 	private int volumeEssence;
 	private int puissance;
 	private int CO2;
 
 	
-	public Cars(Position p, Direction d, int volumeEssence, int puissance, int CO2) 
+	public Car(Position p, Direction d, int volumeEssence, int puissance, int CO2) 
 	{
 		super(p, d);
 		this.volumeEssence = volumeEssence;

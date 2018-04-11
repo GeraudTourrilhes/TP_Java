@@ -11,6 +11,20 @@ public class Bike extends AbstractVehicule
 		this.type = type;
 	}
 	
+	
+	
+	public TypeBike getType() {
+		return type;
+	}
+
+
+
+	public void setType(TypeBike type) {
+		this.type = type;
+	}
+
+
+
 	public void move()
 	{
 		
