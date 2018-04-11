@@ -10,6 +10,14 @@ public class Counter
 		this.position = 0;
 		this.step = 1;
 	}
+	
+	public Counter(int position, int step) 
+	{
+		this.position = position;
+		this.step = step;
+	}
+
+
 
 	public int getValue() 
 	{
