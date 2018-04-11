@@ -4,19 +4,19 @@ public class Main {
 
 	public static void main(String[] args) 
 	{
-		Position p = new Position(5, 500);
-		Direction d = new Direction(50, 0 , 50, 0);
-		Bike b = new Bike(p, d);
+		Position position = new Position(5, 500);
+		Direction direction = new Direction(10, 0 , 5, 0);
+		Bike bike = new Bike(position, direction, TypeBike.VTT);
 		
-		System.out.println(b.getPosition());
+		System.out.println(bike.getPosition());
 		
-		b.setDirection(50, 0, 0, 50);
+		bike.setDirection(5, 0, 0, 5);
 		
-		b.setSpeed((float) 300.5);
+		bike.setSpeed((float) 300.5);
 		
-		System.out.println(b.getSpeed());
+		System.out.println(bike.getSpeed());
 		
-		System.out.println(b.getDirection());
+		System.out.println(bike.getDirection());
 
 	}
 

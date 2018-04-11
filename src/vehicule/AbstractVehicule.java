@@ -4,6 +4,10 @@ public abstract class AbstractVehicule implements Vehicule{
 	private Position position;
 	private Direction direction;
 	private float speed;
+	private int poids;
+	private String couleur;
+	private String marque;
+	private String modele;
 	
 	public AbstractVehicule(Position p, Direction d)
 	{
