@@ -36,12 +36,14 @@ public class Main {
 		counter2.inc();
 		System.out.println("incrémentation de counter2");
 		System.out.println("Valeur de counter2 = " +counter2.getValue());
+		
+		
 		System.out.println();
 		System.out.println();
 		CounterPair counterPair = new CounterPair();
 		CounterImpair counterImpair = new CounterImpair();
 		
-		System.out.println("Compteur globale = " +Counter.getGlobalCounter());
+		System.out.println("Compteur globale = " + Counter.getGlobalCounter());
 		
 		System.out.println("Valeur de counterPair = " + counterPair.getValue());
 		counterPair.inc();
@@ -51,7 +53,7 @@ public class Main {
 		counterImpair.inc();
 		System.out.println(counterImpair);
 		
-		System.out.println("Compteur globale = " +Counter.getGlobalCounter());
+		System.out.println("Compteur globale = " + Counter.getGlobalCounter());
 
 
 	}
