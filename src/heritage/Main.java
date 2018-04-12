@@ -21,29 +21,39 @@ public class Main
 		
 		System.out.println("Lion:");
 		System.out.println(lion.getRegime());
-		System.out.println(lion.manger(salade));
-		System.out.println(lion.manger(viande));
-		System.out.println(lion.manger(lapin));
+		System.out.print(lion.manger(salade));
+		System.out.println(" il ne peut pas manger de la salade");
+		System.out.print(lion.manger(viande));
+		System.out.println(" il peut manger de la viande");
+		System.out.print(lion.manger(lapin));
+		System.out.println(" il peut manger du lapin");
 		
 		
 		System.out.println();
 		System.out.println("Hyène:");
 		System.out.println(hyene.getRegime());
-		System.out.println(hyene.manger(lion));
+		System.out.print(hyene.manger(lion));
+		System.out.println(" elle peut manger du lion");
 		
 		System.out.println();
 		System.out.println("Lapin:");
 		System.out.println(lapin.getRegime());
-		System.out.println(lapin.manger(salade));
-		System.out.println(lapin.manger(viande));
-		System.out.println(lapin.manger(homme));
+		System.out.print(lapin.manger(salade));
+		System.out.println(" il peut manger de la salade");
+		System.out.print(lapin.manger(viande));
+		System.out.println(" il ne peut pas manger de la viande");
+		System.out.print(lapin.manger(homme));
+		System.out.println(" il ne peut pas manger de l'homme");
 		
 		System.out.println();
 		System.out.println("Homme:");
 		System.out.println(homme.getRegime());
-		System.out.println(homme.manger(salade));
-		System.out.println(homme.manger(viande));
-		System.out.println(homme.manger(homme));
+		System.out.print(homme.manger(salade));
+		System.out.println(" il peut manger de la salade");
+		System.out.print(homme.manger(viande));
+		System.out.println(" il peut manger de la viande");
+		System.out.print(homme.manger(homme));
+		System.out.println(" il peut manger de l'homme");
 		
 	}
 
