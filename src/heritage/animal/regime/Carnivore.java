@@ -15,5 +15,10 @@ public class Carnivore extends Regime
 	{
 		return aliment.getType().toString() == "Carnivore";
 	}
+	
+	public String toString() 
+	{
+		return super.toString() + "Carnivore";
+	}
 
 }

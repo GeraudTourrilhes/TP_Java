@@ -14,4 +14,12 @@ public class Herbivore extends Regime
 	{
 		return aliment.getType().toString() == "Herbivore";
 	}
+
+
+	public String toString() 
+	{
+		return super.toString() + "Herbivore";
+	}
+	
+	
 }

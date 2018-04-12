@@ -14,4 +14,9 @@ public class Omnivore extends Regime
 	{
 		return true;
 	}
+	
+	public String toString() 
+	{
+		return super.toString() + "Omnivore";
+	}
 }
