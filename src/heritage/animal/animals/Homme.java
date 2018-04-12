@@ -10,9 +10,9 @@ public class Homme extends Animal//Omnivore
 	
 
 
-	public Homme(int age, int poids, int taille, String nom, Regime regime) {
+	public Homme(int age, int poids, int taille, String nom, Regime regime) 
+	{
 		super(age, poids, taille, nom, regime);
-		// TODO Auto-generated constructor stub
 	}
 
 	public void deplacer() 
