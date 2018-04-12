@@ -1,18 +1,16 @@
 package heritage;
 
+
 import heritage.aliment.Aliment;
 import heritage.aliment.type.TypeAliment;
-import heritage.animal.animals.Homme;
-import heritage.animal.animals.Hyene;
-import heritage.animal.animals.Lapin;
-import heritage.animal.animals.Lion;
+import heritage.animal.animals.*;
+
 
 public class Main 
 {
 	public static void main(String[] args) 
 	{
 		Aliment salade = new Aliment("salade", TypeAliment.Herbivore);
-		Aliment homm = new Aliment("homme", TypeAliment.Carnivore);
 		Aliment viande = new Aliment("viande", TypeAliment.Carnivore);
 		
 		Homme homme = new Homme(45, 50, 172, "Ho");
@@ -25,21 +23,27 @@ public class Main
 		System.out.println(lion.getRegime());
 		System.out.println(lion.manger(salade));
 		System.out.println(lion.manger(viande));
-		System.out.println(lion.manger(homme));
+		System.out.println(lion.manger(lapin));
 		
+		
+		System.out.println();
 		System.out.println("Hyène:");
-		System.out.println(hyene.manger(homm));
+		System.out.println(hyene.getRegime());
+		System.out.println(hyene.manger(lion));
 		
+		System.out.println();
 		System.out.println("Lapin:");
+		System.out.println(lapin.getRegime());
 		System.out.println(lapin.manger(salade));
 		System.out.println(lapin.manger(viande));
-		System.out.println(lion.manger(homme));
+		System.out.println(lapin.manger(homme));
 		
+		System.out.println();
 		System.out.println("Homme:");
+		System.out.println(homme.getRegime());
 		System.out.println(homme.manger(salade));
 		System.out.println(homme.manger(viande));
-		System.out.println(homme.manger(homm));
-		System.out.println(lion.manger(homme));
+		System.out.println(homme.manger(homme));
 		
 	}
 
