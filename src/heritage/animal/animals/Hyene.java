@@ -7,9 +7,9 @@ import heritage.animal.regime.Regime;
 public class Hyene extends Animal
 {
 
-	public Hyene(int age, int poids, int taille, String nom, Regime regime) 
+	public Hyene(int age, int poids, int taille, String nom) 
 	{
-		super(age, poids, taille, nom, regime);
+		super(age, poids, taille, nom, new Carnivore());
 	}
 
 	public void deplacer() 
