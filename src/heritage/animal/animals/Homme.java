@@ -1,8 +1,10 @@
 package heritage.animal.animals;
 
-import heritage.animal.regime.Omnivore;
+import heritage.aliment.Aliment;
+import heritage.animal.Animal;
+//import heritage.animal.regime.Omnivore;
 
-public class Homme extends Omnivore
+public class Homme extends Animal//Omnivore
 {
 	
 
@@ -16,6 +18,11 @@ public class Homme extends Omnivore
 	{
 		
 		
+	}
+
+	public boolean manger(Aliment aliment) 
+	{
+		return true;
 	}
 
 }
