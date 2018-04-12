@@ -1,4 +1,4 @@
-package helloWorld;
+package helloworld;
 
 public enum Language 
 {

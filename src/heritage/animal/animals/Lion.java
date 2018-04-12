@@ -2,7 +2,7 @@ package heritage.animal.animals;
 
 import heritage.animal.Animal;
 import heritage.animal.regime.Carnivore;
-import heritage.animal.regime.Regime;
+//import heritage.animal.regime.Regime;
 
 public class Lion extends Animal
 {

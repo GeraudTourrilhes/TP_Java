@@ -1,9 +1,9 @@
 package heritage.animal.animals;
 
-import heritage.aliment.Aliment;
+//import heritage.aliment.Aliment;
 import heritage.animal.Animal;
 import heritage.animal.regime.Herbivore;
-import heritage.animal.regime.Regime;
+//import heritage.animal.regime.Regime;
 
 public class Lapin extends Animal
 {

@@ -6,10 +6,6 @@ import heritage.animal.animals.Homme;
 import heritage.animal.animals.Hyene;
 import heritage.animal.animals.Lapin;
 import heritage.animal.animals.Lion;
-import heritage.animal.regime.Carnivore;
-import heritage.animal.regime.Herbivore;
-import heritage.animal.regime.Omnivore;
-import heritage.animal.regime.Regime;
 
 public class Main 
 {
@@ -25,6 +21,13 @@ public class Main
 		Lapin lapin = new Lapin(45, 50, 172, "La");
 		
 		System.out.println(lion.getRegime().manger(salade));
+		System.out.println(lion.getRegime().manger(viande));
+		System.out.println(hyene.getRegime().manger(homm));
+		System.out.println(lapin.getRegime().manger(salade));
+		System.out.println(lapin.getRegime().manger(viande));
+		System.out.println(homme.getRegime().manger(salade));
+		System.out.println(homme.getRegime().manger(viande));
+		System.out.println(homme.getRegime().manger(homm));
 		
 	}
 

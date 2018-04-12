@@ -1,7 +1,7 @@
 package heritage.animal.regime;
 
 import heritage.aliment.Aliment;
-import heritage.animal.Animal;
+//import heritage.animal.Animal;
 
 public class Herbivore extends Regime
 {
