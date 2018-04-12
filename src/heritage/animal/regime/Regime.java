@@ -1,6 +1,7 @@
 package heritage.animal.regime;
 
 import heritage.aliment.Aliment;
+import heritage.animal.Animal;
 
 public abstract class Regime 
 {
@@ -11,5 +12,7 @@ public abstract class Regime
 	{
 		return "Le régime est ";
 	}
+
+	public abstract boolean manger(Animal animal);
 
 }

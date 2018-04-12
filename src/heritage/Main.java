@@ -25,6 +25,7 @@ public class Main
 		System.out.println(lion.getRegime());
 		System.out.println(lion.manger(salade));
 		System.out.println(lion.manger(viande));
+		System.out.println(lion.manger(homme));
 		
 		System.out.println("Hyène:");
 		System.out.println(hyene.manger(homm));
@@ -32,11 +33,13 @@ public class Main
 		System.out.println("Lapin:");
 		System.out.println(lapin.manger(salade));
 		System.out.println(lapin.manger(viande));
+		System.out.println(lion.manger(homme));
 		
 		System.out.println("Homme:");
 		System.out.println(homme.manger(salade));
 		System.out.println(homme.manger(viande));
 		System.out.println(homme.manger(homm));
+		System.out.println(lion.manger(homme));
 		
 	}
 

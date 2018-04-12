@@ -77,5 +77,10 @@ public abstract class Animal
 	{
 		return this.regime.manger(aliment);
 	}
+	
+	public boolean manger(Animal animal)
+	{
+		return this.regime.manger(animal);
+	}
 
 }
