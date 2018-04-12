@@ -12,7 +12,7 @@ public class Leaf
 	}
 
 
-	public void printer(Printer printer) 
+	public void print(Printer printer) 
 	{
 		printer.print(this.a);
 		

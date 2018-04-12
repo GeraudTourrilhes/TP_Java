@@ -16,7 +16,7 @@ public class Main {
 			}
 		};
 		
-		a.printer(printer);
+		a.print(printer);
 		
 	}
 
