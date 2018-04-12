@@ -1,6 +1,6 @@
 package heritage.animal;
 
-//import heritage.aliment.Aliment;
+import heritage.aliment.Aliment;
 import heritage.animal.regime.Regime;
 
 public abstract class Animal 
@@ -72,5 +72,10 @@ public abstract class Animal
 	}
 	
 	public abstract void deplacer();
+	
+	public boolean manger(Aliment aliment)
+	{
+		return this.regime.manger(aliment);
+	}
 
 }

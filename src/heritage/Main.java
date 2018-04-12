@@ -20,14 +20,18 @@ public class Main
 		Lion lion = new Lion(45, 50, 172, "Li");
 		Lapin lapin = new Lapin(45, 50, 172, "La");
 		
-		System.out.println(lion.getRegime().manger(salade));
-		System.out.println(lion.getRegime().manger(viande));
-		System.out.println(hyene.getRegime().manger(homm));
-		System.out.println(lapin.getRegime().manger(salade));
-		System.out.println(lapin.getRegime().manger(viande));
-		System.out.println(homme.getRegime().manger(salade));
-		System.out.println(homme.getRegime().manger(viande));
-		System.out.println(homme.getRegime().manger(homm));
+		
+		System.out.println(lion.manger(salade));
+		System.out.println(lion.manger(viande));
+		
+		System.out.println(hyene.manger(homm));
+		
+		System.out.println(lapin.manger(salade));
+		System.out.println(lapin.manger(viande));
+		
+		System.out.println(homme.manger(salade));
+		System.out.println(homme.manger(viande));
+		System.out.println(homme.manger(homm));
 		
 	}
 
