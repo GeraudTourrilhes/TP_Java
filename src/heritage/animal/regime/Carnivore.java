@@ -3,17 +3,17 @@ package heritage.animal.regime;
 import heritage.aliment.Aliment;
 import heritage.animal.Animal;
 
-public abstract class Carnivore extends Animal
+public abstract class Carnivore extends Regime
 {
-	public Carnivore(int age, int poids, int taille, String nom) {
-		super(age, poids, taille, nom);
-		// TODO Auto-generated constructor stub
+	public Carnivore() 
+	{
+		super();
 	}
-
+	
+	
 	public boolean manger(Aliment aliment)
 	{
 		return aliment.getType().toString() == "Carnivore";
 	}
-
 
 }
