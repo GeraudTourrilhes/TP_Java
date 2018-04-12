@@ -1,5 +1,10 @@
 package heritage.animal.regime;
 
-public class Carnivore {
+import heritage.animal.Animal;
+
+public abstract class Carnivore extends Animal
+{
+	
+
 
 }

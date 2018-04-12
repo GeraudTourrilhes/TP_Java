@@ -7,7 +7,7 @@ public abstract class Animal
 	private int taille;
 	private String nom;
 	
-	public abstract void manger();
+	public abstract void manger(Aliment aliment);
 	
 	public abstract void deplacer();
 

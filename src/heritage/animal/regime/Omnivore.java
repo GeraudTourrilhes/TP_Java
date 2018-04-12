@@ -1,5 +1,8 @@
 package heritage.animal.regime;
 
-public class Omnivore {
+import heritage.animal.Animal;
 
+public abstract class Omnivore extends Animal
+{
+	
 }
