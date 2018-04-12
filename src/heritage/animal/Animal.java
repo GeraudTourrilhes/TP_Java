@@ -7,7 +7,17 @@ public abstract class Animal
 	private int taille;
 	private String nom;
 	
-	public abstract void manger(Aliment aliment);
+	
+	
+	public Animal(int age, int poids, int taille, String nom) 
+	{
+		this.age = age;
+		this.poids = poids;
+		this.taille = taille;
+		this.nom = nom;
+	}
+
+	public abstract boolean manger(Aliment aliment);
 	
 	public abstract void deplacer();
 
