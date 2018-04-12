@@ -1,4 +1,6 @@
-package heritage.animal;
+package heritage.aliment;
+
+import heritage.aliment.type.TypeAliment;
 
 public class Aliment 
 {

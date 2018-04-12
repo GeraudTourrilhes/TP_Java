@@ -1,6 +1,6 @@
 package heritage.animal.regime;
 
-import heritage.animal.Aliment;
+import heritage.aliment.Aliment;
 import heritage.animal.Animal;
 
 public abstract class Herbivore extends Animal

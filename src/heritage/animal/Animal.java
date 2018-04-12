@@ -1,5 +1,7 @@
 package heritage.animal;
 
+import heritage.aliment.Aliment;
+
 public abstract class Animal 
 {
 	private int age;
