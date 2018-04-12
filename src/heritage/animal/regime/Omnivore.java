@@ -3,11 +3,10 @@ package heritage.animal.regime;
 import heritage.aliment.Aliment;
 import heritage.animal.Animal;
 
-public abstract class Omnivore extends Regime
+public class Omnivore extends Regime
 {
 	public Omnivore() 
 	{
-		super();
 	}
 	
 
