@@ -1,13 +1,10 @@
 package arraylist;
 
-public class User 
-{
+public class User  implements Comparable<User>{
 	private String name;
 	private Integer age;
 	private boolean isMale;
-	
 
-	
 	public User(String name, Integer age, boolean isMale) {
 		this.name = name;
 		this.age = age;
@@ -37,12 +34,15 @@ public class User
 	public void setMale(boolean isMale) {
 		this.isMale = isMale;
 	}
+	
+	public int compareTo(User user2)
+    {
+        return this.getName().compareTo(user2.getName());
+    }
 
 	public String toString() {
-		String sexe = this.isMale ? "un homme"  : "une femme";
+		String sexe = this.isMale ? "un homme" : "une femme";
 		return "L'utilisateur se nomme " + this.name + ", il a " + this.age + " ans, c'est " + sexe;
 	}
-	
-	
 
 }
