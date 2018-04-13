@@ -1,6 +1,8 @@
 package arraylist;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.Iterator;
 
 public class Main {
@@ -31,7 +33,7 @@ public class Main {
 		users.add(user9);
 		users.add(user10);
 		
-		
+		users.sort(new Comparator<User>() { public int compare(User user1, User user2) { return user1.getName().compareTo(user2.getName()); } }); 
 		
 		for (int i = 0; i < users.size(); i++) 
 		{
