@@ -33,14 +33,30 @@ public class Main {
 		users.add(user9);
 		users.add(user10);
 		
+		for (User user : users) 
+		{
+			System.out.println(user);
+			
+		}
+		
+		System.out.println();
+		System.out.println();
+		System.out.println();
 		users.sort(new Comparator<User>() { public int compare(User user1, User user2) { return user1.getName().compareTo(user2.getName()); } }); 
 		
-		for (int i = 0; i < users.size(); i++) 
+		for (Iterator iterator = users.iterator(); iterator.hasNext();) {
+			User user = (User) iterator.next();
+			System.out.println(user);
+		}
+		
+		/*for (int i = 0; i < users.size(); i++) 
 		{
 			
 			System.out.println(users.get(i));
 			
-		}
+		}*/
+		
+		
 
 	}
 
