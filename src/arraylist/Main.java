@@ -8,6 +8,7 @@ public class Main {
 
 	public static void main(String[] args) 
 	{
+		
 		User user1 = new User("Jean", 18, true);
 		User user2 = new User("Camille", 20, false);
 		User user3 = new User("Julie", 18, false);
@@ -21,6 +22,9 @@ public class Main {
 		
 		ArrayList<User> users = new ArrayList<User>();
 		
+		/**
+		 * ajout des utilisateur dans la liste users
+		 */
 		users.add(user1);
 		users.add(user2);
 		users.add(user3);
@@ -32,6 +36,9 @@ public class Main {
 		users.add(user9);
 		users.add(user10);
 		
+		/**
+		 * affichage des utilisateur de la liste users
+		 */
 		for (User user : users) 
 		{
 			System.out.println(user);
@@ -40,13 +47,23 @@ public class Main {
 		
 		System.out.println();
 		System.out.println();
+		
+		/**
+		 * supression de user7
+		 */
 		users.remove(user7);
 		
 		System.out.println();
 		Collections.sort(users);
 		
+		/**
+		 * supression de l'utilisateur se trouvant a la 5ème position
+		 */
 		users.remove(5);
 		
+		/**
+		 * affichage des utilisateur de la liste users
+		 */
 		for (Iterator iterator = users.iterator(); iterator.hasNext();) 
 		{
 			User user = (User) iterator.next();
@@ -76,14 +93,24 @@ public class Main {
 		users1.add(user18);
 		users1.add(user19);
 		
+		/**
+		 * ajout de l'arrayList users et users1 dans users2
+		 */
 		users2.addAll(users);
 		users2.addAll(users1);
+		
+		
+		users.removeAll(users);
+		users1.removeAll(users1);
 		
 		Collections.sort(users2);
 		
 		
 		System.out.println();
 		System.out.println();
+		/**
+		 * affichage des utilisateur de la liste users
+		 */
 		for (User user : users2) 
 		{
 			System.out.println(user);

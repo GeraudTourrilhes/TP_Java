@@ -43,12 +43,17 @@ public class User  implements Comparable<User>
 		this.isMale = isMale;
 	}
 	
-	
+	/**
+	 * Compare le nom de l'utilisateur avec un autre nom d'tilisateur
+	 */
 	public int compareTo(User user2)
     {
         return this.getName().compareTo(user2.getName());
     }
 
+	/**
+	 * Affichage d'un utilisateur en fonction de si c'est un homme ou une femme
+	 */
 	public String toString() 
 	{
 		
