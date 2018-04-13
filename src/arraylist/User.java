@@ -6,6 +6,8 @@ public class User
 	private Integer age;
 	private boolean isMale;
 	
+
+	
 	public User(String name, Integer age, boolean isMale) {
 		this.name = name;
 		this.age = age;
@@ -38,7 +40,7 @@ public class User
 
 	public String toString() {
 		String sexe = this.isMale ? "un homme"  : "une femme";
-		return "L'utilisateur se nomme " + this.name + ", il a " + this.age + "ans, c'est " + sexe;
+		return "L'utilisateur se nomme " + this.name + ", il a " + this.age + " ans, c'est " + sexe;
 	}
 	
 	
