@@ -100,6 +100,7 @@ public class Main {
 		users2.addAll(users1);
 		
 		
+		
 		users.removeAll(users);
 		users1.removeAll(users1);
 		
